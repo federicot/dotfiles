@@ -1,0 +1,7 @@
+[user]
+	email = federicot@gmail.com
+	name = federicot
+[alias]
+	stash-unapply = !git stash show -p | git apply -R
+[color]
+	ui = true
