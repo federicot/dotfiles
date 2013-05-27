@@ -1,0 +1,52 @@
+# Workspaces
+exec rpws -i
+exec /usr/bin/rpws init 4 -k
+
+# Change escape to C-z
+escape C-z
+
+# Start xbindkeys
+exec xbindkeys
+
+# Make messages appear in the middle of the screen:
+set bargravity c
+
+# set window borders to 0
+set border 0
+
+# switch off the startup message
+startup_message off
+
+# Binds
+bind g exec google-chrome
+bind t exec terminal
+
+unmanage panel
+
+#layouts [ ] [|] [|= [-] [+]
+#definekey top F1 exec ratpoison -c "echo Layout 1" -c "select -" -c "only" -c "next"
+#definekey top F2 exec ratpoison -c "echo Layout 2" -c "select -" -c "only" -c "hsplit" -c "next"
+#definekey top F3 exec ratpoison -c "echo Layout 3" -c "select -" -c "only" -c "hsplit" -c "next" -c "focusright" -c "next" -c "vsplit" -c "next"
+#definekey top F4 exec ratpoison -c "echo Layout 4" -c "select -" -c "only" -c "vsplit" -c "next"
+#definekey top F5 exec ratpoison -c "echo Layout 5" -c "select -" -c "only" -c "hsplit" -c next -c "vsplit" -c next -c "focusright" -c next -c "vsplit" -c "next"
+
+set winname title
+set winfmt %n %s %t
+set fgcolor #FFFFFF
+set bgcolor #000000
+set font -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+set winliststyle column
+set inputwidth 400
+set waitcursor 1
+set padding 0 20 0 0
+set barpadding 1 1
+set wingravity n 
+set transgravity center
+set bargravity nw
+set border 0
+set barborder 1
+set inputwidth 800
+
+bind o only
+bind v hsplit
+bind h vsplit
