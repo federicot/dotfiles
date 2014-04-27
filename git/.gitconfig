@@ -5,3 +5,5 @@
 	stash-unapply = !git stash show -p | git apply -R
 [color]
 	ui = true
+[push]
+	default = simple
