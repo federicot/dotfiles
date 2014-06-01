@@ -8,9 +8,16 @@
 # Aliases
 alias l='ls -la --color'
 alias ls='ls --color=auto'
+alias lx='ll -BX'                   # sort by extension
+alias lz='ll -rS'                   # sort by size
+alias lt='ll -rt'                   # sort by date
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+alias df='df -h'
+alias du='du -c -h'
+alias :q=' exit'
+alias cd..='cd ..'
 
 # Prompt
 parse_git_branch() {
