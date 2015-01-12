@@ -42,3 +42,6 @@ HISTFILESIZE=1000000
 # Editor
 export EDITOR="vim"
 export VISUAL="vim"
+export CHROME_BIN="google-chrome-stable"
+
+export PATH="$PATH:$HOME/.gem/ruby/2.1.0/bin"

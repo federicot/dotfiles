@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/fede/www/bridgepatientportal/src/include'
+let g:netrw_dirhist_2='/home/fede/www/bridgepatientportal/src'
+let g:netrw_dirhist_3='/home/fede/www/drbillingservice/.git'
+let g:netrw_dirhist_4='/home/fede/www/metalsmith/src'
+let g:netrw_dirhist_5='/home/fede/www/metalsmith/build'
+let g:netrw_dirhist_6='/home/fede/www/metalsmith'

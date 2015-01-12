@@ -22,3 +22,5 @@ autocmd FileType php noremap <C-L> :w!<CR>:!/usr/bin/php -l %<CR>
 if has("autocmd")
     au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
+
+call pathogen#infect()
